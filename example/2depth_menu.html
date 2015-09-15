@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<style type="text/css" media="screen">
+	*{margin:0; padding:0}
+ul{list-style: none;}
+.fulldownMenu{border:1px #F00 solid;height:40px;}
+.fulldownMenu>ul>li{
+	float:left; 
+	width: 20%; 
+	text-align: center; 
+	line-height: 40px;
+}
+
+.fulldownMenu>ul>li>div{
+	
+	border:1px #F00 solid;
+	text-align: left;
+	display: none;
+	position:absolute;
+	width: 100%;
+	left:0
+}
+
+.fulldownMenu>ul>li:hover>div,
+.fulldownMenu>ul>li.on>div{display: block}
+
+.fulldownMenu>ul>li>div>ul>li{float:left; margin:0 20px;}
+.fulldownMenu>ul>li>div>ul{position:relative;}
+.fulldownMenu>ul>li:nth-child(1)>div>ul{left:100px}
+.fulldownMenu>ul>li:nth-child(2)>div>ul{left:300px}
+.fulldownMenu>ul>li:nth-child(3)>div>ul{left:600px}
+.fulldownMenu>ul>li:nth-child(4)>div>ul{left:800px}
+.fulldownMenu>ul>li:nth-child(5)>div>ul{left:900px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	</style>
+</head>
+<body>
+	<div class="fulldownMenu">
+		<ul>
+			<li class="on"><a href="">menu1</a>
+				<div>
+					<ul>
+						<li><a href="">sub1</a></li>
+						<li><a href="">sub2</a></li>
+						<li><a href="">sub3</a></li>
+						<li><a href="">sub4</a></li>
+						<li><a href="">sub5</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="">menu2</a>
+				<div>
+					<ul>
+						<li><a href="">sub1</a></li>
+						<li><a href="">sub2</a></li>
+						<li><a href="">sub3</a></li>
+						<li><a href="">sub4</a></li>
+						<li><a href="">sub5</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="">menu3</a>
+				<div>
+					<ul>
+						<li><a href="">sub1</a></li>
+						<li><a href="">sub2</a></li>
+						<li><a href="">sub3</a></li>
+						<li><a href="">sub4</a></li>
+						<li><a href="">sub5</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="">menu4</a>
+				<div>
+					<ul>
+						<li><a href="">sub1</a></li>
+						<li><a href="">sub2</a></li>
+						<li><a href="">sub3</a></li>
+						<li><a href="">sub4</a></li>
+						<li><a href="">sub5</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="">menu5</a>
+				<div>
+					<ul>
+						<li><a href="">sub1</a></li>
+						<li><a href="">sub2</a></li>
+						<li><a href="">sub3</a></li>
+						<li><a href="">sub4</a></li>
+						<li><a href="">sub5</a></li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+	</div>
+	
+	
+</body>
+</html>
