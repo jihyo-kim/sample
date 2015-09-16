@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+div.slide>button.{text}*2+(ul>li*3>(div>img)+p)
+<!--예제-->
+
+div.style>
+table[border="1"][width="100%"]>
+caption{제목}+
+(colgroup>col[width=""]*4)+
+(thed>tr>th{title$}[scop="col"]*4)+
+(tbody>tr*4>td{item$$}*4)
+
+
+div.style>table[border="1"][width="100%"]>caption{제목}+(colgroup>col[width=""]*4)+(thed>tr>th{title$}[scop="col"]*4)+(tbody>tr*4>td{item$$}*4)
+
+
+    <div class="style">
+        <table border="1" width="100%">
+            <caption>제목</caption>
+            <colgroup>
+                <col width="">
+                <col width="">
+                <col width="">
+                <col width="">
+            </colgroup>
+            <thed>
+                <tr>
+                    <th class="">title1</th>
+                    <th class="">title2</th>
+                    <th class="">title3</th>
+                    <th class="">title4</th>
+                </tr>
+            </thed>
+            <tbody>
+                <tr>
+                    <td>item01</td>
+                    <td>item02</td>
+                    <td>item03</td>
+                    <td>item04</td>
+                </tr>
+                <tr>
+                    <td>item01</td>
+                    <td>item02</td>
+                    <td>item03</td>
+                    <td>item04</td>
+                </tr>
+                <tr>
+                    <td>item01</td>
+                    <td>item02</td>
+                    <td>item03</td>
+                    <td>item04</td>
+                </tr>
+                <tr>
+                    <td>item01</td>
+                    <td>item02</td>
+                    <td>item03</td>
+                    <td>item04</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    div>img[title="hi"][src="img$$"]*5
+    a{text$$}*5
+    div>(ul>li*5)+(ul>li*8)
+
+    [속성="값"]
+    ()그룹
+    # 아이디
+    . 클래스
+    {} 텍스트요소
+    $숫자
+    * 갯수
+    > 자식요소
+    + 다음
+
+
+</body>
+</html>
